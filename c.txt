@@ -1,0 +1,3 @@
+invalid radix 52 (ArgumentError)
+---
+puts "no " + 9219755.to_s(034)

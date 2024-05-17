@@ -1,0 +1,5 @@
+0: 1 === 0 does not return true (NoMatchingPatternError)
+---
+r = (0..1)
+0 => ^r
+puts "no error"

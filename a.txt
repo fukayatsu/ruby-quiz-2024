@@ -1,0 +1,7 @@
+cannot clamp with an exclusive range (ArgumentError)
+---
+def foo(...)
+  "no error".clamp(...)
+end
+
+puts foo("a", "z")
