@@ -1,0 +1,7 @@
+index -4 too small for array; minimum: -3 (IndexError)
+---
+# Out of bounds?
+ary = [1, 2, 3]
+ary[3] = "no error"
+puts ary[3]
+

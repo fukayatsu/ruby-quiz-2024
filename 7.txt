@@ -1,0 +1,16 @@
+private method 'main' called for an instance of C (NoMethodError)
+---
+# Last day!
+class C
+  def no = "no"
+  def error = "error"
+
+  private :no, :error
+
+  def main
+    no + " " + error
+  end
+end
+
+puts C.new.main
+# Thanks @joker1007

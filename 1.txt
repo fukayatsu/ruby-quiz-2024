@@ -1,0 +1,7 @@
+undefined method '+' for nil (NoMethodError)
+---
+# Change the following code
+# to raise the expected error
+n = 1_000
+p n + 1
+puts "no error"

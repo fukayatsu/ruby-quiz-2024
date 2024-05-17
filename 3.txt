@@ -1,0 +1,9 @@
+wrong number of arguments (given 2, expected 3) (ArgumentError)
+---
+# Last of the day
+def foo(x, y, z)
+end
+
+foo(1, 2, 3)
+
+puts 'no error'

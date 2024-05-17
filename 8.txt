@@ -1,0 +1,16 @@
+cyclic include detected (ArgumentError)
+---
+# Do you know of such
+# a pedantic error?
+module M
+end
+
+module M2
+  include M
+end
+
+module M
+  #include ? # cyclic?
+  puts "no error"
+end
+

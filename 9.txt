@@ -1,0 +1,7 @@
+wrong number of arguments (given 1, expected 0) (ArgumentError)
+
+---
+# The last quiz
+def x = 2
+def y = 1
+puts "no error" * (x-y)

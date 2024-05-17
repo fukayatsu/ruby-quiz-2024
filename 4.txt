@@ -1,0 +1,5 @@
+nil can't be coerced into Integer (TypeError)
+---
+# Good morning!
+n = 3
+puts "I dunno error"[2 + n..]

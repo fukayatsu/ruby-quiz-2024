@@ -1,0 +1,5 @@
+undefined method 'downcase' for nil (NoMethodError)
+---
+# The billion dollar mistake
+ary = ["NO ERROR"]
+puts ary[0].downcase
