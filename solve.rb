@@ -21,7 +21,7 @@ end
 threads = []
 0.upto original_code.length do |i|
   threads << Thread.start(i) do |t|
-    (["\n"] + (" "..."~").to_a).each do |char|
+    (["\n"] + (" ".."~").to_a).each do |char|
       code = original_code[0...t].to_s + char + original_code[i..-1].to_s
       File.write("tmp/temp__add_#{t}.rb", code)
       o, e, s = Open3.capture3("ruby tmp/temp__add_#{t}.rb")
