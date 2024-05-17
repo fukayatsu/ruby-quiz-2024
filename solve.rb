@@ -3,6 +3,8 @@ require "open3"
 
 expected_error, original_code = File.read('5.txt').split('---')
 
+`rm -f tmp/*`
+
 0.upto original_code.length do |i|
   code = original_code[0...i].to_s + original_code[i+1..-1].to_s
   File.write('tmp/temp__del.rb', code)
